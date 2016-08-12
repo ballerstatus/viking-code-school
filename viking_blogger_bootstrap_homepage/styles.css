@@ -1,3 +1,10 @@
-
+.highlighted-btn {
+  background-color: #428bca; }
+  .highlighted-btn a {
+    color: white; }
+    .highlighted-btn a:hover {
+      color: #eee; }
+  .highlighted-btn:active {
+    background-color: #085394; }
 
 /*# sourceMappingURL=styles.css.map */

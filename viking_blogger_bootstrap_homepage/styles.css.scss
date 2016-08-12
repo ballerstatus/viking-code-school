@@ -1,0 +1,35 @@
+// Bootstrap Colors
+
+$brand-primary: #428bca;
+
+#topnav {
+  padding: 0 10px;
+}
+
+.logo-container {
+  img {
+    width: 45px;
+    height: 45px;
+    margin-top: 2px;
+    vertical-align: middle;
+  }
+}
+
+.nav-links > li {
+  width: 195px;
+  text-align: center;
+  font-size: 1.25em;
+}
+
+.highlighted-btn {
+  background-color: $brand-primary;
+  a {
+    color: white;
+    &:hover {
+      color: #eee;
+    }
+  }
+  &:active {
+    background-color: #085394;
+  }
+}
