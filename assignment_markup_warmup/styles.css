@@ -1,0 +1,142 @@
+/********************
+
+        body
+
+********************/
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px; }
+
+nav {
+  width: 100%;
+  background-color: #FFE28F;
+  height: 50px;
+  position: fixed;
+  top: 0;
+  z-index: 9999; }
+  nav h1 {
+    line-height: 10px;
+    margin: 20px 0 20px 20px;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1px; }
+
+.wrapper {
+  width: 990px;
+  margin: 50px auto; }
+
+aside {
+  background-color: #D09DB6;
+  margin: 5px 5px;
+  height: 400px;
+  width: 250px;
+  float: left;
+  text-align: center;
+  position: relative; }
+  aside .advertisement {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    aside .advertisement p {
+      font-size: 12px; }
+    aside .advertisement img {
+      margin: 10px 0; }
+
+main {
+  display: inline-block;
+  margin: 5px 0;
+  width: 700px; }
+
+header {
+  background-color: #AED29F;
+  margin-bottom: 5px;
+  text-align: center;
+  padding: 10px 0; }
+  header h1, header h2 {
+    padding: 5px 0; }
+  header h1 {
+    font-weight: 700;
+    font-size: 16px; }
+  header h2 {
+    font-style: italic; }
+
+article {
+  background-color: #98BDC3;
+  vertical-align: top;
+  height: auto;
+  width: 100%;
+  padding: 10px;
+  display: inline-block;
+  box-sizing: border-box; }
+  article h1 {
+    font-weight: 700;
+    font-size: 1.25em;
+    text-align: center;
+    padding: 5px; }
+  article h3 {
+    font-weight: 100;
+    font-size: 0.95em;
+    text-align: center;
+    padding: 5px; }
+  article h2 {
+    font-weight: 700;
+    font-size: 1.05em;
+    margin: 10px 0; }
+  article p {
+    margin: 10px 0; }
+
+.left-article {
+  width: calc((100% / 3) - 5px);
+  margin: 0 2.5px 0 0; }
+
+.middle-article {
+  width: calc((100% / 3) - 5px);
+  margin: 0 1px; }
+
+.right-article {
+  width: calc((100% / 3) - 5px);
+  margin: 0 0 0 2.5px; }
+
+footer {
+  background-color: #95BFF7;
+  margin: 5px 0;
+  padding: 10px; }
+  footer p {
+    font-size: 0.95em; }
+
+/********************
+
+    media queries
+
+********************/
+@media (max-width: 989px) {
+  aside {
+    display: none; }
+
+  .wrapper {
+    width: 100%; }
+
+  main {
+    width: 100%;
+    margin: 0; }
+
+  .article-content {
+    margin: 0 5px; }
+
+  .left-article {
+    width: calc((100% / 2) - 5px);
+    margin: 0 2.5px 0 0; }
+
+  .middle-article {
+    width: calc((100% / 2) - 5px);
+    margin: 0 0 0 3px; }
+
+  .right-article {
+    width: 100%;
+    margin: 2.5px 0 0 0; } }
+@media (min-width: 990px) {
+  header, footer {
+    border-radius: 12px; } }
+
+/*# sourceMappingURL=styles.css.map */
