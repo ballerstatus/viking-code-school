@@ -2,34 +2,134 @@
 
 $brand-primary: #428bca;
 
-#topnav {
+#topnav{
   padding: 0 10px;
-}
 
-.logo-container {
-  img {
-    width: 45px;
-    height: 45px;
-    margin-top: 2px;
-    vertical-align: middle;
-  }
-}
-
-.nav-links > li {
-  width: 195px;
-  text-align: center;
-  font-size: 1.25em;
-}
-
-.highlighted-btn {
-  background-color: $brand-primary;
-  a {
-    color: white;
-    &:hover {
-      color: #eee;
+  .logo-container{
+    img{
+      width: 45px;
+      height: 45px;
+      margin-top: 2px;
+      vertical-align: middle;
     }
   }
-  &:active {
-    background-color: #085394;
+
+  .highlighted-btn{
+    background-color: $brand-primary;
+    a{
+      color: white;
+      &:hover{
+        color: #eee;
+      }
+    }
+    &:active{
+      background-color: #085394;
+    }
+  }
+
+  .nav-links > li{
+    width: 195px;
+    text-align: center;
+    font-size: 1.25em;
   }
 }
+
+#search-container {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  form {
+    margin: auto;
+  }
+}
+
+.post {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border: 2px solid #ddd;
+  padding: 40px 0 80px;
+  h1 {
+    font-size: 24px;
+    margin: .5em 0;
+  }
+  .post-date-wrapper {
+    text-align: right;
+  }
+  time {
+    font-size: 14px;
+    color: #ccc;
+    display: block;
+    margin: 1em 0 1em auto;
+  }
+  .post-body {
+    font-size: 16px;
+    color: #444;
+    line-height: 1.25em;
+  }
+  .comment-links-wrapper {
+    margin: 20px 0;
+    font-size: 14px;
+  }
+  .view-comments {
+    float: left;
+  }
+  .write-comment {
+    float: right;
+  }
+  .post-photo-wrapper {
+    width: 100%;
+    height: 450px;
+    background-color: #eee;
+  }
+  .post-photo-wrapper img {
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+  }
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

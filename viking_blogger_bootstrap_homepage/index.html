@@ -4,10 +4,10 @@
   <head>
     <title>Viking Blogger Homepage</title>
       <meta charset="utf-8">
-      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
       <link rel="stylesheet" type="text/css" href="styles.css">
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   </head>
 
   <body>
@@ -40,43 +40,76 @@
             <li>
               <a href="#">Account</a>
             </li>
+            <li class="divider"></li>
             <li>
               <a href="#">Sign Out</a>
             </li>
           </ul>
         </li>
       </ul>
-
-      <div class="links-container">
-        
-      </div>
-      
     </nav>
   
 
-    <main>
+    <main class="container">
 
-      <section id="search-container"></section>
-      <section id="posts">
+      <div class="row">
+        <section id="search-container" class="col-md-8 col-md-offset-2">
+        <form>
+          <div class="col-md-9">
+            <input type="text" class="form-control input-lg" placeholder="Enter your search terms here...">
+          </div>
+          <div class="col-md-3">
+            <input type="submit" class="btn btn-default btn-lg btn-block" value="Search">
+          </div>
+        </form>
+        </section>
+      </div>
 
-        <article class="post">
-          <header>
-            <h1></h1>
-            <time datetime="#" pubdate></time>
-          </header>
-          <div class="post-body"></div>
-          <div class="comment-links-wrapper"></div>
-        </article>
 
-        <article class="post">
-          <header>
-            <h1></h1>
-            <time datetime="#" pubdate></time>
-          </header>
-          <div class="post-body"></div>
-          <div class="comment-links-wrapper"></div>
-        </article>
+      <section id="posts" class="col-md-8 col-md-offset-2">
 
+        <article class="row post">
+          <div class="col-md-9 col-centered">
+            <header>
+              <h1><a href="#">lorem ipsum dolor sit amet</a></h1>
+              <div class="post-date-wrapper">
+                <time datetime="Thu, 11 Aug 2016 00:40:29 GMT" pubdate>
+                Posted at 8/11/2016 by Example User
+                </time>
+              </div>
+            </header>
+            <div class="post-body">lorem ipsum dolor sit amet</div>
+            <div class="comment-links-wrapper">
+              <div class="view-comments">
+                <a href="#"> View 3 Comments</a>
+              </div>
+              <div class="write-comment">
+                <a href="#">Write a Comment</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="row post">
+            <div class="col-md-9 col-centered">
+              <header>
+                <h1><a href="#">lorem ipsum dolor sit amet</a></h1>
+                <div class="post-date-wrapper">
+                  <time datetime="Thu, 11 Aug 2016 00:40:29 GMT" pubdate>
+                  Posted at 8/11/2016 by Example User
+                  </time>
+                </div>
+              </header>
+              <div class="post-body">lorem ipsum dolor sit amet</div>
+              <div class="comment-links-wrapper">
+                <div class="view-comments">
+                  <a href="#"> View 3 Comments</a>
+                </div>
+                <div class="write-comment">
+                  <a href="#">Write a Comment</a>
+                </div>
+              </div>
+            </div> 
+          </article>
       </section>
 
     </main>
