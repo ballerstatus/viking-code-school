@@ -1,9 +1,23 @@
 .eyebrow {
   background-color: #aaa;
-  height: 50px;
 }
 
 .eye {
   background-color: blue;
+}
+
+.nose {
+  font-size: 28px;
+}
+
+.mouth {
+  background-color: red;
+}
+
+.big-block {
+  height: 50px;
+}
+
+.small-block {
   height: 15px;
 }
