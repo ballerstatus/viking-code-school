@@ -1,0 +1,26 @@
+* {
+  border-radius: 0 !important;
+  font-family: 'Lato', serif; }
+
+body {
+  margin-top: 70px; }
+
+.nav-banner {
+  background-color: #266EE1;
+  height: 70px; }
+
+.nav-title {
+  color: white;
+  letter-spacing: 3px;
+  font-size: 1.5em; }
+
+.remove-bot-marg {
+  margin-bottom: 0px; }
+
+.bot-align {
+  vertical-align: bottom; }
+
+.form-group p {
+  color: white; }
+
+/*# sourceMappingURL=styles.css.map */

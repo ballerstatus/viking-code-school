@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Danebook Prototype</title>
+
+    <!-- Bootstrap -->
+    <!-- Latest compiled & minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <!-- navbar container -->
+    <nav class="navbar navbar-default navbar-fixed-top nav-banner">
+      <div class="container-fluid">
+        <!-- toggle navbar dropdown -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed btn-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span><!-- bars on toggle button -->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- navbar logo/name -->
+          <a class="navbar-brand" href="#"><p class="nav-title">danebook</p></a>
+        </div>
+        <!-- email/password form -->
+        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height:1px;">
+        <form class="navbar-form navbar-right">
+          <div class="form-group">
+            <p class="remove-bot-marg">Email</p>
+            <input type="text" name="" class="form-control input-sm">
+          </div>
+          <div class="form-group">
+            <p class="remove-bot-marg">Password</p>
+            <input type="password" name="" class="form-control input-sm">
+          </div>
+          <button type="submit" class="btn bot-align btn-info btn-sm">Log In</button>
+        </form>
+        </div>
+      </div>  
+    </nav><!-- end of navbar -->
+
+    <!-- main page content -->
+    <main class="container">
+      <section class="row">
+        <!-- left side content -->
+        <article class="col-sm-6">
+          <h2>Connect with all your friends</h2>
+          <ul>
+            <li>See photos and updates in your news feed</li>
+            <li>Post your status for the world to see from your profile</li>
+            <li>Get in touch with your friends by "friending" them</li>
+            <li>Like things because you're a positive person!</li>
+          </ul>
+        </article>
+        <!-- right side content -->
+        <article class="col-sm-6">
+            <!-- sign up form -->
+            <form class="form-horizontal" role="form">
+              <h1>Sign Up</h1>
+              <!-- text boxes -->
+              <div class="form-group"> <!-- acts as row within form -->
+                <div class="col-sm-5">
+                  <input type="text" name="" placeholder="First Name" class="form-control" id="firstName">
+                </div>
+                <div class="col-sm-7">
+                  <input type="text" name="" placeholder="Last Name" class="form-control">
+                </div>
+              </div>
+              <div class="form-group"> <!-- acts as row within form -->
+                <div class="col-xs-12">
+                  <input type="email" name="" id="email" placeholder="Your Email" class="form-control">
+                </div>
+              </div>
+              <div class="form-group"> <!-- acts as row within form -->
+                <div class="col-xs-12">
+                  <input type="password" name="" id="password" placeholder="Your New Password" class="form-control">
+                </div>
+              </div>
+              <div class="form-group"> <!-- acts as row within form -->
+                <div class="col-xs-12">
+                  <input type="password" name="" id="password" placeholder="Confirm Your Password" class="form-control">
+                </div>
+              </div>
+              <!-- birthday selector heading -->
+              <div class="form-group"> <!-- acts as row within form -->
+                <div class="col-xs-3">
+                  <h4>Birthday</h4>
+                </div>
+              </div>
+              <!-- drop down menus -->
+              <div class="form-group"> <!-- acts as row within form -->
+                <div class="col-sm-5">
+                  <select class="form-control">
+                    <option>Month</option><!-- jan-dec -->
+                  </select>
+                </div>
+                <div class="col-sm-3">
+                  <select class="form-control">
+                    <option>Day</option><!-- 1-31 -->
+                  </select>
+                </div>
+                <div class="col-sm-4">
+                  <select class="form-control">
+                    <option>Year</option><!-- year selection -->
+                  </select>
+                </div>
+              </div>
+              <!-- gender radio buttons -->
+              <div class="form-group"> <!-- acts as row within form -->
+                <div class="col-sm-8">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <label class="radio-inline">
+                        <input type="radio" name="" value="Female" checked="">Female
+                      </label>
+                    </div>
+                    <div class="col-sm-4">
+                      <label class="radio-inline">
+                        <input type="radio" name="" value="Male">Male
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- sign up button -->
+              <div class="form-group"> <!-- acts as row within form -->
+                <div class="col-xs-12">
+                  <button type="submit" class="btn btn-success btn-block">Sign Up!</button>
+                </div>
+              </div>
+            </form>
+        </article>
+      </section>
+    </main>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>

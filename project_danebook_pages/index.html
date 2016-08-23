@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Danebook - Sign Up!</title>
+    <!-- Bootstrap links -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+  <body>
+
+    <!-- navbar container -->
+    <nav class="navbar-default navbar-fixed-top danebook-theme">
+      <section class="container">
+        <div class="row">
+          <div class="navbar-header col-lg-2 col-sm-3">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!--logo/brand -->
+            <a class="navbar-brand" id="brand-link" href="index.html"><img src="Images/danish_flag_logo.gif" class="img-circle right-shift">danebook</a>
+          </div>
+          <div id="main-navbar-collapse" class="collapse navbar-collapse">
+            <div class="navbar-right navbar-form">
+              <form class="form-inline">
+                <div class="form-group">
+                  <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+                </div>
+                <div class="form-group">
+                  <label class="sr-only" for="exampleInputPassword3">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-info">Sign in</button>
+              </form>
+            </div>
+          </div>
+      </section>
+    </nav><!-- end of navbar -->
+
+    <!-- main page content -->
+    <main class="container">
+      <section class="row">
+        <!-- left side content -->
+        <article class="col-sm-6">
+          <h2>Connect with all your friends</h2>
+          <ul>
+            <li>See photos and updates in your news feed</li>
+            <li>Post your status for the world to see from your profile</li>
+            <li>Get in touch with your friends by "friending" them</li>
+            <li>Like things because you're a positive person!</li>
+          </ul>
+        </article>
+        <!-- right side content -->
+        <article class="col-sm-6">
+            <!-- sign up form -->
+            <form class="form-horizontal" role="form">
+              <h1>Sign Up</h1>
+              <!-- text boxes -->
+              <div class="form-group"> <!-- acts as row within form -->
+                <div class="col-sm-5">
+                  <input type="text" name="" placeholder="First Name" class="form-control" id="firstName">
+                </div>
+                <div class="col-sm-7">
+                  <input type="text" name="" placeholder="Last Name" class="form-control">
+                </div>
+              </div>
+              <div class="form-group"> <!-- acts as row within form -->
+                <div class="col-xs-12">
+                  <input type="email" name="" id="email" placeholder="Your Email" class="form-control">
+                </div>
+              </div>
+              <div class="form-group"> <!-- acts as row within form -->
+                <div class="col-xs-12">
+                  <input type="password" name="" id="password" placeholder="Your New Password" class="form-control">
+                </div>
+              </div>
+              <div class="form-group"> <!-- acts as row within form -->
+                <div class="col-xs-12">
+                  <input type="password" name="" id="password" placeholder="Confirm Your Password" class="form-control">
+                </div>
+              </div>
+              <!-- birthday selector heading -->
+              <div class="form-group"> <!-- acts as row within form -->
+                <div class="col-xs-3">
+                  <h4>Birthday</h4>
+                </div>
+              </div>
+              <!-- drop down menus -->
+              <div class="form-group"> <!-- acts as row within form -->
+                <div class="col-sm-5">
+                  <select class="form-control">
+                    <option>Month</option><!-- jan-dec -->
+                  </select>
+                </div>
+                <div class="col-sm-3">
+                  <select class="form-control">
+                    <option>Day</option><!-- 1-31 -->
+                  </select>
+                </div>
+                <div class="col-sm-4">
+                  <select class="form-control">
+                    <option>Year</option><!-- year selection -->
+                  </select>
+                </div>
+              </div>
+              <!-- gender radio buttons -->
+              <div class="form-group"> <!-- acts as row within form -->
+                <div class="col-sm-8">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <label class="radio-inline">
+                        <input type="radio" name="" value="Female" checked="">Female
+                      </label>
+                    </div>
+                    <div class="col-sm-4">
+                      <label class="radio-inline">
+                        <input type="radio" name="" value="Male">Male
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- sign up button -->
+              <div class="form-group"> <!-- acts as row within form -->
+                <div class="col-xs-12">
+                  <button type="submit" class="btn btn-success btn-block">Sign Up!</button>
+                </div>
+              </div>
+            </form>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

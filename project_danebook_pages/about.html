@@ -1,0 +1,124 @@
+<!-- Your markup here! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Danebook - About</title>
+    <!-- Bootstrap links -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+  <body>
+
+    <!-- navbar container -->
+    <nav class="navbar-default navbar-fixed-top danebook-theme">
+      <section class="container">
+        <div class="row">
+          <div class="navbar-header col-lg-2 col-sm-3">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!--logo/brand -->
+            <a class="navbar-brand" id="brand-link" href="index.html"><img src="Images/danish_flag_logo.gif" class="img-circle right-shift">danebook</a>
+          </div>
+          <div id="main-navbar-collapse" class="collapse navbar-collapse">
+            <div class="navbar-left">
+              <form class="navbar-form" role="search">
+                <div class="form-group">
+                  <input type="text" name="searchbar" class="form-control search-width" placeholder="Search for Users">
+                </div>
+              </form>
+            </div>
+            <div class="navbar-right">
+              <div class="form-group">
+                <a href="about.html" class="navbar-text">Harry</a>
+              </div>
+            </div>
+          </div>
+      </section>
+    </nav><!-- end of navbar -->
+
+    <!-- header -->
+    <header class="container">
+      <section class="header-wrap row">
+        <img src="Images/banner.jpg" class="img-responsive cover-image" alt="Hogwarts Banner">
+        <a href="about_edit.html"><img src="Images/harry-icon.jpg" class="img-thumbnail user-image" alt="User Icon"></a>
+        <p class="user-name">Harry Potter</p>
+      </section>
+      <section class="row margin-pad">
+        <ul class="nav nav-pills navbar-right" role="tablist">
+          <li role="presentation"><a href="timeline.html">Timeline</a></li>
+          <li role="presentation" class="active"><a href="about.html">About</a></li>
+          <li role="presentation"><a href="photos.html">Photos <span class="badge">123</span></a></li>
+          <li role="presentation"><a href="friends.html">Friends <span class="badge">542</span></a></li>
+          <li><a href="about_edit.html">Edit Profile</a></li>
+        </ul>
+      </section>
+    </header> <!-- end of header -->
+
+    <!-- main -->
+    <main class="container outline">
+      <!-- main header -->
+      <section class="row header-main">
+        <div class="col-xs-1 col-xs-offset-5 bold">
+          <p>About</p>
+        </div>
+        <div>
+          <a href="about_edit.html"><button class="btn btn-primary">Edit Your Profile</button></a>
+        </div>
+      </section>
+      <!-- main content -->
+      <section class="row">
+        <!-- left column -->
+        <article class="col-sm-5 col-sm-offset-1">
+          <h2>Basic Information</h2>
+          <div class="row">
+            <div class="col-xs-4 bold">
+              <p>Birthday:</p>
+              <p>College:</p>
+              <p>Hometown:</p>
+              <p>Currently Lives:</p>
+            </div>
+            <div class="col-xs-8">
+              <p>July 31st, 1980</p>
+              <p>Hogwarts College</p>
+              <p>Godrick's Hollow, England</p>
+              <p>Godrick's Hollow, England</p>
+            </div>
+          </div>
+          <h2>Contact Information</h2>
+          <div class="row">
+            <div class="col-xs-4 bold">
+              <p>Email:</p>
+              <p>Telephone:</p>
+            </div>
+            <div class="col-xs-8">
+              <p><a href="mailto:harry_potter@hogwarts.edu?Subject=Expecto%20Patronum" target="_top">harry_potter@hogwarts.edu</a></p>
+              <p><a href="tel:5551234567">555-123-4567</a></p>
+            </div>
+          </div>
+        </article>
+        <!-- right column -->
+        <article class="col-sm-5">
+          <h2>Words to Live By</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua.</p>
+          <h2>About Me</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>

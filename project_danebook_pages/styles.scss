@@ -1,0 +1,204 @@
+body {
+  margin-top: 50px;
+  font-family: 'Lato', serif;
+}
+
+/***********************
+
+          navbar
+
+***********************/
+
+.navbar-collapse.collapse.in {
+  background-color: #266EE1;
+}
+
+.danebook-theme {
+  background-color: #266EE1;
+  .navbar-header {
+    a {
+      color: #fff;
+    }
+  }
+  .navbar-right {
+    a {
+      color: #fff;
+    }
+  }
+}
+
+/***********************
+
+    banner/user image
+
+***********************/
+
+.header-wrap {
+  position: relative;
+  .cover-image {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    max-height: 550px;
+  }
+  .user-image {
+    position: absolute;
+    height: 30%;
+    width: 15%;
+    z-index: 2;
+    top: 73%;
+    left: 3%;
+  }
+  .user-name {
+    position: absolute;
+    z-index: 2;
+    top: 80%;
+    left: 20%;
+    color: #fff;
+    font-size: 3em;
+  }
+}
+
+/***********************
+
+    body/main adj
+
+***********************/
+
+.bold {
+  p {
+    font-weight: 700;
+  }
+}
+
+.header-main {
+  background-color: #ECECEC;
+  p {
+    font-size: 1.75em;
+  }
+  button {
+    margin: 5px 15px 0 0;
+    float: right;
+  }
+}
+
+.post-bar {
+  background-color: #ECECEC;
+  button {
+    margin: 5px 15px 5px 0;
+  }
+}
+
+.outline {
+  border: 1px solid #D8D8D8;
+  margin-bottom: 15px;
+}
+
+.vertical-align {
+  display: flex;
+  flex-direction: row;
+  a, button {
+    display: flex;
+    align-items: center;
+  }
+}
+
+/***********************
+
+    photo page - hover
+
+***********************/
+
+div.grid-image {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  a {
+    position: relative;
+  }
+  a:hover span.text-content {
+    opacity: 1;
+  }
+}
+
+span.text-content {
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  display: table;
+  bottom: 3%;
+  position: absolute;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+     -moz-transition: opacity 500ms;
+       -o-transition: opacity 500ms;
+          transition: opacity 500ms;
+}
+
+/***********************
+
+    padding/margins
+
+***********************/
+
+.right-shift {
+  margin-right: 10px;
+}
+
+.margin-pad {
+  margin: 15px 0;
+}
+
+.inline-pad {
+  padding: 5px;
+}
+
+.span-pad {
+  margin-left: 5px;
+}
+
+.block-pad {
+  margin: 0 2.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

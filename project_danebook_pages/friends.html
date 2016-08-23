@@ -1,0 +1,166 @@
+<!-- Your markup here! -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Danebook - Friends</title>
+    <!-- Bootstrap links -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+
+  <body>
+
+    <!-- navbar container -->
+    <nav class="navbar-default navbar-fixed-top danebook-theme">
+      <section class="container">
+        <div class="row">
+          <div class="navbar-header col-lg-2 col-sm-3">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!--logo/brand -->
+            <a class="navbar-brand" id="brand-link" href="index.html"><img src="Images/danish_flag_logo.gif" class="img-circle right-shift">danebook</a>
+          </div>
+          <div id="main-navbar-collapse" class="collapse navbar-collapse">
+            <div class="navbar-left">
+              <form class="navbar-form" role="search">
+                <div class="form-group">
+                  <input type="text" name="searchbar" class="form-control" placeholder="Search for Users">
+                </div>
+              </form>
+            </div>
+            <div class="navbar-right">
+              <div class="form-group">
+                <a href="about.html" class="navbar-text">Harry</a>
+              </div>
+            </div>
+          </div>
+      </section>
+    </nav><!-- end of navbar -->
+
+    <!-- header -->
+    <header class="container">
+      <section class="header-wrap row">
+        <img src="Images/banner.jpg" class="img-responsive cover-image" alt="Hogwarts Banner">
+        <a href="about_edit.html"><img src="Images/harry-icon.jpg" class="img-thumbnail user-image" alt="User Icon"></a>
+        <p class="user-name">Harry Potter</p>
+      </section>
+      <section class="row margin-pad">
+        <ul class="nav nav-pills navbar-right" role="tablist">
+          <li role="presentation"><a href="timeline.html">Timeline</a></li>
+          <li role="presentation"><a href="about.html">About</a></li>
+          <li role="presentation"><a href="photos.html">Photos <span class="badge">123</span></a></li>
+          <li role="presentation" class="active"><a href="friends.html">Friends <span class="badge">542</span></a></li>
+          <li role="presentation"><a href="about_edit.html">Edit Profile</a></li>
+        </ul>
+      </section>
+    </header> <!-- end of header -->
+
+    <!-- main -->
+    <main class="container outline">
+      <!-- main header -->
+      <section class="row header-main">
+        <div class="col-sm-4 col-sm-offset-4 bold">
+          <p class="text-center">Friends</p>
+        </div>
+      </section>
+      <!-- main content -->
+      <section class="row">
+        <!-- friend list area -->
+        <div class="col-sm-12 margin-pad">
+          <!-- friend list -->
+          <div class="col-sm-6">
+            <div class="col-xs-12">
+              <div class="row outline vertical-align">
+                <img src="Images/user-icon.png" class="col-xs-3 inline-pad">
+                <a href="#" class="col-xs-6">Hermoine Granger<span class="badge span-pad">432 Friends</span></a>
+                <a href="#" class="col-xs-3"><button class="btn btn-danger">Unfriend</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="col-xs-12">
+              <div class="row outline vertical-align">
+                <img src="Images/user-icon.png" class="col-xs-3 inline-pad">
+                <a href="#" class="col-xs-6">Hermoine Granger<span class="badge span-pad">432 Friends</span></a>
+                <a href="#" class="col-xs-3"><button class="btn btn-danger">Unfriend</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="col-xs-12">
+              <div class="row outline vertical-align">
+                <img src="Images/user-icon.png" class="col-xs-3 inline-pad">
+                <a href="#" class="col-xs-6">Hermoine Granger<span class="badge span-pad">432 Friends</span></a>
+                <a href="#" class="col-xs-3"><button class="btn btn-danger">Unfriend</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="col-xs-12">
+              <div class="row outline vertical-align">
+                <img src="Images/user-icon.png" class="col-xs-3 inline-pad">
+                <a href="#" class="col-xs-6">Hermoine Granger<span class="badge span-pad">432 Friends</span></a>
+                <a href="#" class="col-xs-3"><button class="btn btn-danger">Unfriend</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="col-xs-12">
+              <div class="row outline vertical-align">
+                <img src="Images/user-icon.png" class="col-xs-3 inline-pad">
+                <a href="#" class="col-xs-6">Hermoine Granger<span class="badge span-pad">432 Friends</span></a>
+                <a href="#" class="col-xs-3"><button class="btn btn-danger">Unfriend</button></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="col-xs-12">
+              <div class="row outline vertical-align">
+                <img src="Images/user-icon.png" class="col-xs-3 inline-pad">
+                <a href="#" class="col-xs-6">Hermoine Granger<span class="badge span-pad">432 Friends</span></a>
+                <a href="#" class="col-xs-3"><button class="btn btn-danger">Unfriend</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><!-- end of friend list -->
+
+      <!-- pagination -->
+      <section class="row">
+        <div class="col-sm-4 col-sm-offset-4">
+          <nav aria-label="Page navigation">
+            <div class="text-center">
+              <ul class="pagination">
+                <li>
+                  <a href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li>
+                  <a href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </section><!-- end of pagination -->
+
+    </main>
+
+  </body>
+</html>
