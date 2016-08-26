@@ -9,7 +9,7 @@ def check_guess (guess, secret_number, num_guesses)
     exit
   elsif num_guesses == 3
     puts "You LOSE! The secret number was #{secret_number}."
-    puts "Sucker."1
+    puts "Sucker."
   elsif guess > secret_number
     puts "The secret number is LOWER than #{guess}."
   else
