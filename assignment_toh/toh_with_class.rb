@@ -68,10 +68,12 @@ class TowerOfHanoi
   def validate_move
     if @move_from.empty?
       puts "Please enter a valid move."
-    else @move_to.none? || @move_from.first < @move_to.first
+    elsif @move_to.none? || @move_from.first < @move_to.first
       @move_to.unshift(@move_from.first)
       @move_from.shift
       @moves += 1
+    else @move_from.first > @move_to.first
+      puts "You cannot place a larger disk on a smaller disk."
     end
   end
 
